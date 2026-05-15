@@ -1,5 +1,4 @@
-
-        * {
+  * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -299,4 +298,63 @@
     font-size: 0.78em; 
     color: rgba(255, 255, 255, 0.6); 
     margin-top: 8px; 
+}
+
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cert-card {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.cert-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.cert-icon {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.cert-card h3 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 6px;
+}
+
+.cert-issuer {
+    font-size: 0.9em;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0 0 14px;
+    font-style: italic;
+}
+
+.cert-link {
+    display: inline-block;
+    font-size: 0.8em;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 4px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.cert-link:hover {
+    background: rgba(255, 255, 255, 0.3);
 }
