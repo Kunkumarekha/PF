@@ -166,6 +166,23 @@
             line-height: 1.6;
         }
 
+        .demo-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #00f2fe, #a18cd1);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.demo-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,242,254,0.6);
+}
+
         .skills-container {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
