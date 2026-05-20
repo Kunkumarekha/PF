@@ -406,3 +406,46 @@
 .resume-btn:hover {
     transform: scale(1.05);
 }
+
+.contact-box {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.contact-box textarea {
+    height: 120px;
+    resize: none;
+}
+
+.contact-box button {
+    padding: 12px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(90deg, #00f2fe, #a18cd1);
+    color: #6d8adc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    transform: scale(1.05);
+}
