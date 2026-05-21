@@ -59,10 +59,18 @@
             font-style: italic;
         }
 
+       
         nav {
-            text-align: center;
-            margin-bottom: 60px;
-        }
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+body {
+    padding-top: 100px;
+}
 
         .nav-pills {
             display: inline-flex;
@@ -90,6 +98,7 @@
 
         section {
             margin-bottom: 80px;
+            scroll-margin-top: 100px;
         }
 
         .section-title {
@@ -465,4 +474,28 @@
 
 .contact-box button:hover {
     transform: scale(1.05);
+}
+
+.project-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+/* IMAGE SIDE */
+.card-image {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+}
+/* TEXT SIDE */
+.card-content {
+    flex: 1;
 }
