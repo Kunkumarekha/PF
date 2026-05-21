@@ -14,6 +14,7 @@
             width:200px;
             height:150px;
             border-radius:50%;
+          
 
         }
 
@@ -21,6 +22,7 @@
             max-width: 1200px;
             margin: 0 auto;
             padding: 0 30px;
+
         }
 
         header {
@@ -41,6 +43,7 @@
             font-weight: bold;
             backdrop-filter: blur(10px);
             transition: transform 0.3s ease;
+            box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
         }
 
         .logo:hover {
@@ -57,6 +60,7 @@
             font-size: 1.3em;
             opacity: 0.9;
             font-style: italic;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
         }
 
        
@@ -99,13 +103,14 @@ body {
         section {
             margin-bottom: 80px;
             scroll-margin-top: 100px;
+           
         }
 
         .section-title {
             font-size: 2.5em;
             text-align: center;
             margin-bottom: 50px;
-            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+            text-shadow: 1px 1px 2px rgba(209, 9, 9, 0.3);
         }
 
         .about-card {
@@ -118,6 +123,7 @@ body {
             margin: 0 auto;
             line-height: 1.8;
             font-size: 1.1em;
+            box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
         }
 
         .portfolio-grid {
@@ -132,6 +138,7 @@ body {
             overflow: hidden;
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
         }
 
         .portfolio-card:hover {
@@ -207,11 +214,13 @@ body {
             text-align: center;
             backdrop-filter: blur(10px);
             transition: all 0.3s ease;
+            box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
         }
 
         .skill-item:hover {
             background: rgba(255, 255, 255, 0.15);
             transform: scale(1.02);
+
         }
 
         .skill-icon {
@@ -232,6 +241,7 @@ body {
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
 
 .achievement-card:hover {
@@ -290,6 +300,7 @@ body {
     backdrop-filter: blur(10px); 
     transition: all 0.3s ease;
     text-align: center;
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
 .edu-card:hover { 
     transform: translateY(-5px); 
@@ -343,6 +354,7 @@ body {
     backdrop-filter: blur(10px);
     transition: all 0.3s ease;
     text-align: center;
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
 
 .cert-card:hover {
@@ -407,6 +419,7 @@ body {
     background: rgba(255,255,255,0.1);
     border-radius: 20px;
     backdrop-filter: blur(10px);
+        box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
 
 .resume-box h2 {
@@ -427,6 +440,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
+   
 }
 
 .resume-btn:hover {
@@ -440,6 +454,7 @@ body {
     background: rgba(255,255,255,0.1);
     border-radius: 20px;
     backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
 
 .contact-box form {
@@ -498,4 +513,5 @@ body {
 /* TEXT SIDE */
 .card-content {
     flex: 1;
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
 }
