@@ -447,49 +447,6 @@ body {
     transform: scale(1.05);
 }
 
-.contact-box {
-    max-width: 600px;
-    margin: auto;
-    padding: 30px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
-}
-
-.contact-box form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.contact-box input,
-.contact-box textarea {
-    padding: 12px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-}
-
-.contact-box textarea {
-    height: 120px;
-    resize: none;
-}
-
-.contact-box button {
-    padding: 12px;
-    border: none;
-    border-radius: 25px;
-    background: linear-gradient(90deg, #00f2fe, #a18cd1);
-    color: #6d8adc;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.contact-box button:hover {
-    transform: scale(1.05);
-}
 
 .project-container {
     display: flex;
@@ -514,4 +471,101 @@ body {
 .card-content {
     flex: 1;
     box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
+}
+
+
+#contact {
+    padding: 80px 10%;
+}
+
+.contact-subtitle {
+    text-align: center;
+    color: #ccc;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.contact-box {
+    flex: 1;
+    min-width: 320px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 15px rgba(9, 210, 221, 0.6);
+    padding: 30px;
+}
+
+.contact-info h3,
+.contact-box h3 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.info-item span {
+    font-size: 24px;
+}
+
+.info-item a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.info-item a:hover {
+    color: #00f2fe;
+}
+
+.contact-box form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.contact-box textarea {
+    height: 140px;
+    resize: none;
+}
+
+.contact-box button {
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #00f2fe, #a18cd1);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,242,254,.4);
 }
